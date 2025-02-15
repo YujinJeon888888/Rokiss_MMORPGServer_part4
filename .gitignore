@@ -1,32 +1,47 @@
-# Prerequisites
-*.d
+# Exclude Visual Studio specific files and folders
+.vs/                     # Visual Studio workspace files
+*.vcxproj                # Project configuration files
+*.vcxproj.filters        # Visual Studio project filter files
+*.vcxproj.user           # User-specific project settings
+*.sdf                    # SQL server compact edition files
+*.suo                    # User options/settings
+*.opensdf                # Open SQL server compact edition files
+*.user                   # User-specific files
+*.userosscache           # OSS user cache
+*.aps                    # Binary resource files
+*.ncb                    # Non-compilable browse files
+*_i.c                    # Precompiled header intermediate C files
+*_p.c                    # Precompiled header preprocessed C files
+*.ilk                    # Incremental link files
+*.map                    # Map files
+*.pdb                    # Program database files
+*.pgc                    # Program global common files
+*.pgd                    # Program global debug files
+*.rsp                    # Response files
+*.sbr                    # Source browser files
+*.tlb                    # Type library files
+*.tlh                    # Type library headers
+*.tli                    # Type library implementations
+*.log                    # Log files
+*.idb                    # Intermediate debug files
+*.ipch/                  # Intellisense precompiled header files
+*.res                    # Compiled resource files
+*.pch                    # Precompiled header files
+*.obj                    # Object files
+*.exe                    # Executable files
+*.dll                    # Dynamic link library files
+*.lib                    # Library files
+*.exp                    # Export files
+*.manifest               # Manifest files
+*.log                    # Log files
+*.vspscc                 # Visual Studio Project Source Control files
+[Bb]in/                  # Binary output directory
+[Dd]ebug*/               # Debug build output directory
+[Rr]elease*/             # Release build output directory
+x64/                     # Output directory for x64 platform
+x86/                     # Output directory for x86 platform
+Build/                   # Custom build output directory
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Ignore specific file formats
+*.db                     # Database files
+*.opendb                 # Open database files
